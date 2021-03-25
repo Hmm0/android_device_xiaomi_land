@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_land.mk
+    $(LOCAL_DIR)/ssos_land.mk
