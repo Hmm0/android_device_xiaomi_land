@@ -245,3 +245,7 @@ VENDOR_SECURITY_PATCH := 2017-04-01
 # Inherit the common proprietary files
 -include vendor/xiaomi/land/BoardConfigVendor.mk
 
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
