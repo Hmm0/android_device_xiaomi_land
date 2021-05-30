@@ -452,6 +452,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/msm8996
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
